@@ -1,0 +1,74 @@
+﻿@meta charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+
+
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,li,ol,p,button,table,tr,td,tbody,iframe{margin:0;padding:0;list-style:none; font-family: Nanum Barun Gothic, Roboto;}
+img,button{border:0;}
+a{text-decoration:none;}
+button{background:none;cursor:pointer;}
+
+
+/*안그라픽스 헤더*/
+header{width:215px;height:100%;border-right:1px solid black; box-sizing:border-box;position:fixed;background:#fff;}
+.header_inner{width:164px;margin:0 auto;}
+.header_inner>h1{width:164px; height:54px; margin:40px auto 173px auto;}
+nav>ul>li{margin-bottom:50px;}
+nav>ul>li>h2>button{font-size:18px;}
+nav>ul>li>ul>li{font-size:16px;height:30px;text-align:right;}
+nav>ul>li>ul>li>a{color:#434343;}
+nav>ul>li>ul>li:nth-child(1){margin-top:20px;}
+
+/*안그라픽스 푸터*/
+
+footer{width:215px; hegiht:36px;position:fixed;top:860px;text-align:left;margin:0 38px 0 38px;font-size:14px;}
+
+/*container 공통 부문*/
+
+.container{margin-left:255px;width:910px;}
+
+/*visual 부문*/
+
+.visual{padding-top:40px;width:910px;height:320px;background:url(images/main_visual.jpg)no-repeat center 40px;margin-bottom:40px;}
+
+/*newest1 부문*/
+
+.newest1{width:370px;float:left;margin-bottom:40px;}
+.newest1 h2{float:left;font-size:16px;width:240px;border-bottom:1px solid black;margin-bottom:15px;}
+.newest1>p{float:left;margin-left:16px;}
+.newest1>ul>li>p:nth-of-type(1){clear:both;width:370px;height:370px;background:#f1f1f1;text-align:center;padding-top:35px;box-sizing:border-box;margin-bottom:20px;}
+.newest1>ul>li:nth-child(1)>p:nth-of-type(2){position:absolute;left:585px;top:455px;}
+.newest1>ul>li>h3{font-size:18px;text-align:center;}
+.newest1>ul>li>p:nth-of-type(3),.newest1>ul>li>p:nth-of-type(4){font-size:16px;text-align:center;}
+.newest1>ul>li>p:nth-of-type(4){margin-bottom:25px;}
+
+.newest1>ul>li:nth-child(2)>p:nth-of-type(2){position:absolute;left:585px;top:930px;}
+.newest1>ul>li:nth-child(3)>p:nth-of-type(2){position:absolute;left:585px;top:1400px;}
+
+/*newest2 부문*/
+
+.newest2{width:500px;margin-left:40px;float:left;}
+.newest2 h2{float:left;font-size:16px;width:240px;border-bottom:1px solid black;margin-bottom:15px;}
+.event_visual>p{float:left;margin-left:16px;}
+.event_visual2{width:500px;height:265px;overflow:hidden;}
+.event_visual_list{width:1500px;}
+.event_visual_list>li{width:500px;height:265px;float:left;}
+.event_visual_list>li:nth-child(1){background:url(images/event1.jpg)no-repeat;}
+.event_visual_list>li:nth-child(2){background:url(images/event2.jpg)no-repeat;}
+.event_visual_list>li:nth-child(3){background:url(images/event3.jpg)no-repeat;}
+
+.btn{width:130px;margin:0 auto;clear:both;}
+.btn>li>button{float:left;margin:20px 10px;}
+
+.sns_page p{float:left;margin-left:16px;}
+.sns_visual{clear:both;widht:500px;height:205px;background:url(images/ioi.jpg)no-repeat;margin-bottom:40px;}
+.sns_visual>p{font-size:16px;margin-top:80px;font-weight:bold;}
+
+.new>p,.notice>p{float:left;margin-left:16px;}
+
+.new>table>tbody,.notice>table>tbody{clear:both;float:left;width:500px;height:205px; background:#f1f1f1;margin-bottom:40px;}
+
+.new>table>tbody>tr,.notice>table>tbody>tr{font-size:16px;}
+.new>table>tbody>tr>td:first-child,.notice>table>tbody>tr>td:first-child{width:310px;height:35px;background:url(images/o2.png)no-repeat 25px 13px;padding-left:50px;padding-top:2px;}
